@@ -1,0 +1,11 @@
+button:hover,
+button:active {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
+
