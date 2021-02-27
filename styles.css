@@ -150,6 +150,18 @@ background: url(./assets/images/pic_1.jpg);
     border: none;
 }
 
+.logoImg1 {
+    width: 60px;
+}
+
+.logoImg2 {
+    width: 140px;
+}
+
+.fab {
+    font-size: 2.5em;
+}
+
 @media (max-width: 768px) {
     body {
         font-size: 0.8em;
