@@ -1,5 +1,9 @@
-:root {
-    --main-color: #C271FF;
+.bg-primary {
+    background-color: #c271ff !important;
+}
+
+.text-primary {
+    color: #c271ff !important;
 }
 
 button:hover,
@@ -9,7 +13,6 @@ button:active {
 
 body {
     font-size: 0.7em;
-    overflow: hidden;
 }
 
 .main {
@@ -31,7 +34,6 @@ body {
 }
 
 .info .btn-primary {
-    background: var(--main-color);
     border: none;
     border-radius: 25px;
     font-size: 1em;
@@ -43,10 +45,6 @@ body {
 
 .team h2 {
     font-size: 2em;
-}
-
-.team span {
-    color: var(--main-color);
 }
 
 .team__list {
@@ -62,18 +60,21 @@ body {
 
 .carouselOne {
     width: 100%;
-    height: 392px;
-    background-color: var(--main-color);
+    height: 292px;
 }
 
 .carousel-item {
-    padding: 200px;
+    padding: 0px 200px;
 }
 
 .carousel__img {
     width: 160px;
     height: 160px;
     border-radius: 50%;
+}
+
+.info p {
+    font-size: 1.3em;
 }
 
 @media (max-width: 768px) {
@@ -88,7 +89,7 @@ body {
         text-align: center;
     }
     .info ul {
-       font-size: 2em;
+        font-size: 2em;
     }
 
     .info > .btn-primary {
@@ -105,4 +106,3 @@ body {
         font-size: 0.6em;
     }
 }
-
