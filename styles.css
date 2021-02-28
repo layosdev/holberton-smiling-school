@@ -179,6 +179,13 @@ background: url(./assets/images/pic_1.jpg);
     border-radius: 30px;
 }
 
+.coursesHero {
+    width: 100%;
+    background: url(./assets/images/pic_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 @media (max-width: 768px) {
     body {
         font-size: 0.8em;
