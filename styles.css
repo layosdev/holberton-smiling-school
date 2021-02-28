@@ -205,6 +205,10 @@ input::placeholder {
     font-weight: lighter;
 }
 
+.videos {
+    padding: 30px 150px;
+}
+
 @media (max-width: 768px) {
     body {
         font-size: 0.8em;
